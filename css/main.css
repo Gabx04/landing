@@ -31,12 +31,12 @@
 * {
     font-family: "Open Sans", sans-serif;
 }
-.pd-esp {
+.w-esp {
    width: 60%;
    margin: auto;
 }
 header img {
-    width: 30%;
+    width: 60%;
     margin: 10px 0;
     
 }
@@ -106,11 +106,11 @@ footer p, span {
 
 
 @media screen and (max-width: 768px){
-    .pd-esp {
-        width: 80%;
+    .w-esp {
+        width: 90%;
     }
     header img {
-    width: 40%;
+    width: 90%;
     
     }
     section p {
@@ -118,22 +118,33 @@ footer p, span {
         width: 90%;
     }
     .formulario {
-        width: 90%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 600px){
-    .pd-esp {
+    .w-esp {
         width: 90%;
     }
     header img {
-    width: 50%;
+    width: 95%;
     
     }
     .block {
       width: 100%;
     }
 }
-@media screen and (max-width: 480px){
-    header img {
-        width: 60%;
-    }}
+@media screen and (max-width: 320px){
+    nav li {
+        margin-right: 0;
+    }
+    
+}
+
+@media screen and (max-width: 240px){
+   nav ul {
+        font-size: 10px;
+     }
+    h1 {
+        font-size: 35px;
+    }
+}    

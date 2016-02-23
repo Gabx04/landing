@@ -1,1 +1,139 @@
-/* Tu CSS va aqui */
+/*utilities*/
+
+.text-white {
+    color: white;
+}
+.text-gray {
+    color: #808080;
+}
+.text-blue {
+    color: #1209C8;
+}
+.text-center {
+    text-align: center;
+}
+.bg-gray {
+    background-color: #808080;
+}
+.bg-lblue {
+    background-color: #3EB0F7;
+}
+.bg-white {
+    background-color: white;
+}
+
+
+
+
+
+
+/*Estilos*/
+* {
+    font-family: "Open Sans", sans-serif;
+}
+.pd-esp {
+   width: 60%;
+   margin: auto;
+}
+header img {
+    width: 30%;
+    margin: 10px 0;
+    
+}
+nav ul {
+	list-style-type: none;
+	margin-right: 0;
+	padding-top: 15px;
+	float: right;
+	font-size: 14px;
+	
+
+}
+nav li {
+	position: relative;
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+}
+nav a {
+	text-decoration: none;
+	color: #808080;
+
+}
+nav a:hover {
+	font-weight: 700;
+	color: #3EB0F7;
+}
+
+/*Section*/
+section {
+    padding: 5% 0;
+}
+h1 {
+    font-size: 45px;
+}
+.formulario {
+    padding: 15px 10px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+form {
+    padding: 3px 0;
+}
+input {
+    width: 95%;
+    border: none;
+    padding: 5px;
+    margin: 3px 0;
+}
+section p {
+    font-size: 13px;
+    margin: 20px 0;
+    width: 80%;
+}
+/*Footer*/
+
+footer {
+    padding: 10px 0 5px;
+}
+footer p, span {
+    font-size:13px;
+}
+
+
+@media screen and (max-width: 768px){
+    .pd-esp {
+        width: 80%;
+    }
+    header img {
+    width: 40%;
+    
+    }
+    section p {
+        margin: 40px 0;
+        width: 90%;
+    }
+    .formulario {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 600px){
+    .pd-esp {
+        width: 90%;
+    }
+    header img {
+    width: 50%;
+    
+    }
+    .block {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 480px){
+    header img {
+        width: 60%;
+    }}
